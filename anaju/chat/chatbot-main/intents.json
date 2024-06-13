@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "qué tal", "cómo estás", "saludos"],
+            "responses": ["¡Hola!", "Buenos días", "¿Cómo estás?"]
+        },
+        {
+            "tag": "informacion_general",
+            "patterns": ["Cuéntame sobre Italia", "Háblame de París", "¿Dónde está el Taj Mahal?"],
+            "responses": ["Italia es conocida por su rica historia y su deliciosa gastronomía.", "En París puedes encontrar la Torre Eiffel y el Museo del Louvre.", "El Taj Mahal se encuentra en Agra, India."]
+        },
+        {
+            "tag": "capitales",
+            "patterns": ["¿Cuál es la capital de Francia?", "Dime la capital de Japón"],
+            "responses": ["La capital de Francia es París.", "La capital de Japón es Tokio."]
+        },
+        {
+            "tag": "monumentos_famosos",
+            "patterns": ["¿Qué monumentos hay en Nueva York?", "Nómbrame un monumento famoso de Egipto"],
+            "responses": ["En Nueva York puedes encontrar la Estatua de la Libertad.", "Uno de los monumentos más famosos de Egipto es la Gran Pirámide de Giza."]
+        },
+        {
+            "tag": "idiomas",
+            "patterns": ["¿Qué idioma se habla en Brasil?", "Idioma oficial de Alemania"],
+            "responses": ["En Brasil se habla portugués.", "El idioma oficial de Alemania es el alemán."]
+        },
+        {
+            "tag": "clima",
+            "patterns": ["¿Cómo es el clima en Canadá?", "Descripción del clima de Buenos Aires"],
+            "responses": ["El clima de Canadá varía desde muy frío en el norte hasta templado en el sur.", "En Buenos Aires el clima es templado con veranos cálidos e inviernos suaves."]
+        }
+    ]
+}
